@@ -31,6 +31,8 @@ html,body {
     justify-content: center;
 }
 
+.slider__block
+
 .site__slider {
     width: 968px;
 }
@@ -61,6 +63,7 @@ html,body {
     opacity: .5;
     cursor: pointer;
     transition: opacite ease .25s;
+    margin: 0 4px;
 }
 
 .menu__mark:hover {
