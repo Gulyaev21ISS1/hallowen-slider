@@ -27,10 +27,9 @@ html, body {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    align-items: center;
     justify-content: flex-start;
+    align-items: center;
 }
-
 .site__menu {
     height: 72px;
     width: 968px;
@@ -41,11 +40,28 @@ html, body {
     flex-wrap: nowrap;
 }
 
+.site__text {
+    display: flex;
+    width: 268px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    font-size: 32px;
+    font-weight: 800;
+    color: white;
+}
+
+.site__page {
+    display: flex;
+    width: 300px;
+    height: 300px;
+}
+
 .menu__logo {
     display: flex;
-    flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
+    flex-wrap: nowrap;
     font-size: 32px;
     font-weight: 800;
     color: white;
@@ -55,15 +71,15 @@ html, body {
     margin-right: 24px;
 }
 
+.menu__link:hover {
+    text-decoration: underline;
+}
+
 .menu__link {
     margin-left: 24px;
     color: white;
     text-decoration: none;
     font-size: 20px;
-}
-
-.menu__link:hover {
-    text-decoration: underline;
 }
 
 .site__content {
@@ -112,7 +128,7 @@ html, body {
 .slider__block {
     width: 100%;
     height: 460px;
-    display: none;
+    display: none;  
 }
 
 .slider__wrapper {
