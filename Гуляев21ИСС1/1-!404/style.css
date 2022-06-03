@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: rgb(248, 206, 133);
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.block {
+    width: 90%;
+    height: 90%;
+    background-color: rgb(222, 168, 78);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: none;
+    box-shadow: 0px 33px 49px -39px #000000;
+}
+
+
+.about {
+    width: 500px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.xcompany{
+    position: absolute;
+    top: 80px;
+    left: 150px;
+}
+
+
+.infoblock{
+    position:absolute;
+    bottom: 60px;
+    left:550px;
+}
+
+.error{
+    font-size: 14px;
+    font-weight: 600;
+    height: 40px;
+}
+
+.hey{
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.wecant{
+    position:absolute;
+    color: black;
+    font-size: 13px;
+    font-weight: 600;
+    height: 50px;
+}
+
+.img_ghost{
+    width: 600px;
+    height: 600px;
+    float: 2200px left;
+    position: absolute; 
+    top: 160px; 
+    right: 35px;
+    border-radius: 50px;
+    margin: 20px;
+}
+
+.block__menu {
+    width: 850px;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.about {
+    width: 900px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    color: black;
+    font-size: 13px;
+    font-weight: 600;
+    flex-wrap: nowrap;
+}
+
+.button {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 20px;
+}
+
+.knopka {
+    width: 100px;
+    height: 40px;
+    color: white;
+    text-decoration: none;
+    user-select: none;
+    background-color: black;
+    outline: none;
+    border-radius: 20px;
+    font-size: 13px;
+    display: flex;
+    font-weight: 600;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#img1 {
+    animation: img1 3.5s ease-in-out infinite;
+}
+
+@keyframes img1 {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-30px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
